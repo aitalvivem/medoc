@@ -1,0 +1,71 @@
+body{
+	background:rgb(219,219,219);
+	background:rgba(0,0,0,15%);
+	font-family: calibri;
+}
+.corps{
+	width:80%;
+	margin: auto;
+	margin-top:1em;
+}
+
+header{
+	background-color: black;
+	margin: -0.5em;
+	padding: 0.4em;
+}
+header nav ul{
+	list-style : none;
+}
+header nav ul li{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+header a{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: white;
+	margin: 2em;
+}
+header a:hover{
+	color: red;
+	text-decoration: bold;
+}
+fieldset{
+	background: white;
+	margin: 1em 0;
+}
+button{
+	float: right;
+	margin : 0 1em;
+}
+
+
+
+.co{
+	width: 30%;
+	margin: auto;
+	margin-top: 15%;
+}
+.co table tr td label{
+	margin: 1em;
+}
+.co input{
+	float: right;
+}
+
+	
+.erreur, .confirme{
+	background: #DF7401;
+	margin: 0;
+	margin-bottom: 0.5em;
+	padding: 0.5em 0;
+	text-align: center;
+	font-size: 1,2em;
+	border: 1px solid black;
+}
+.confirme{
+        background: #01DF01;
+}
